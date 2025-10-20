@@ -1,6 +1,6 @@
 # Ray Serve Router Performance Test
 
-This project demonstrates the performance difference between Ray Serve's default **Power of Two Choices (P2C)** router and a **Blind Uniform** router, especially in a "straggler replica" scenario.
+This project demonstrates the performance difference between Ray Serve's default **Power of Two Choices (P2C)** router and a **Uniform** router, especially in a "straggler replica" scenario.
 
 You will see that the P2C router is much faster because it intelligently avoids the slow replica, while the Uniform router gets bottlenecked.
 
