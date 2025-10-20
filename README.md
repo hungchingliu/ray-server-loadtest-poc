@@ -14,7 +14,7 @@ You need these 4 files in the same directory:
 
 ## 🚀 How to Run
 
-You will need **3 separate terminal windows**.
+You will need **2 separate terminal windows**.
 
 ### Step 1: Install Dependencies
 
