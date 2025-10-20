@@ -21,7 +21,7 @@ class ReplicaCounter:
             return self.count
 
 # --- 2. Model Deployment ---
-@serve.deployment(num_replicas=5, max_ongoing_requests=5) # Default 5
+@serve.deployment(num_replicas=4, max_ongoing_requests=5) # Default 5
 class MyModel:
     def __init__(self, counter: ray.actor.ActorHandle):
         context = get_replica_context()
